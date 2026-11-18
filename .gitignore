@@ -1,4 +1,16 @@
-# Saved login snapshots contain access tokens
+# Saved login snapshots contain access tokens. Never commit them.
 accounts/
 *.tsv
+.cursor-account-switch/
+
+# OS and editor
 .DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local Cursor session files. Keep project skills.
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
