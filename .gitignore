@@ -1,0 +1,4 @@
+# Saved login snapshots contain access tokens
+accounts/
+*.tsv
+.DS_Store
