@@ -10,7 +10,5 @@ accounts/
 .idea/
 .vscode/
 
-# Local Cursor session files. Keep project skills.
-.cursor/*
-!.cursor/skills/
-!.cursor/skills/**
+# Local Cursor files and skills. Keep them out of the repo.
+.cursor/
